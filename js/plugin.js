@@ -323,7 +323,7 @@ $(document).ready(function () {
             // 'left':100
         },2000);
 
-        $('.deco1').delay(4500).fadeOut(1000);
+        $('.deco1').delay(4500).fadeOut(2000);
 
         $('#navov').fadeOut();
 
@@ -338,17 +338,17 @@ $(document).ready(function () {
         $('.work').fadeOut();
 
 
-        $('#navov').delay(6000).fadeIn(2000);
+        $('#navov').delay(6000).fadeIn(1000);
 
         $('#about1').click(function(){
 
-            $('.section2').delay(2000).fadeIn(3000);
+            $('.section2').delay(1500).fadeIn(500);
 
-            $('#navov').fadeOut(1000);
+            $('#navov').fadeOut(500);
             
-            $('.contact').fadeOut(1000);
+            $('.contact').fadeOut(500);
 
-            $('#navside1').delay(2000).fadeIn(3000);
+            $('#navside1').delay(2000).fadeIn(1000);
 
             $('.work').fadeOut();
 
