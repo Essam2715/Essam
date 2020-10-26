@@ -294,7 +294,7 @@ lightbox.option({
 //     $(".loading .breeding-rhombus-spinner").fadeOut(500,function(){
 
 //         $(this).parent().fadeOut();
-//         // $(".loading").delay(3000).animate({'background':'transparent'});
+//         // $(".loading").delay(1000).animate({'background':'transparent'});
 //     });
 
 // });
