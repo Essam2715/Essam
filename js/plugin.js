@@ -291,10 +291,10 @@ lightbox.option({
 
 //     // $('body').css('overflow','auto');
 
-//     $(".loading .breeding-rhombus-spinner").fadeOut(1000,function(){
+//     $(".loading .breeding-rhombus-spinner").fadeOut(500,function(){
 
 //         $(this).parent().fadeOut();
-//         // $(".loading").delay(6000).animate({'background':'transparent'});
+//         // $(".loading").delay(3000).animate({'background':'transparent'});
 //     });
 
 // });
@@ -315,15 +315,15 @@ $(document).ready(function () {
 
 
         
-        $('#essam-logo').delay(7000).animate({
+        $('#essam-logo').animate({
             
             'top':95,
             'fontSize':'2.2em',
             // 'position':'absolute',
             // 'left':100
-        },5000);
+        },2000);
 
-        $('.deco1').delay(7000).fadeOut(5000);
+        $('.deco1').delay(1500).fadeOut(500);
 
         $('#navov').fadeOut();
 
@@ -338,7 +338,7 @@ $(document).ready(function () {
         $('.work').fadeOut();
 
 
-        $('#navov').delay(9000).fadeIn(2000);
+        $('#navov').delay(6000).fadeIn(2000);
 
         $('#about1').click(function(){
 
