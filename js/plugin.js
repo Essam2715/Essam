@@ -323,7 +323,7 @@ $(document).ready(function () {
             // 'left':100
         },2000);
 
-        $('.deco1').delay(4500).fadeOut(2000);
+        $('.deco1').delay(4500).fadeOut(1000);
 
         $('#navov').fadeOut();
 
@@ -342,11 +342,11 @@ $(document).ready(function () {
 
         $('#about1').click(function(){
 
-            $('.section2').delay(1500).fadeIn(500);
+            $('.section2').delay(1500).fadeIn(1000);
 
-            $('#navov').fadeOut(500);
+            $('#navov').fadeOut(1000);
             
-            $('.contact').fadeOut(500);
+            $('.contact').fadeOut(1000);
 
             $('#navside1').delay(2000).fadeIn(1000);
 
@@ -357,7 +357,7 @@ $(document).ready(function () {
 
         $('#about2').click(function(){
 
-            $('.section2').delay(1000).fadeIn(2000);
+            $('.section2').delay(1000).fadeIn(1000);
 
             $('.skills').fadeOut();
 
@@ -370,7 +370,7 @@ $(document).ready(function () {
         
         $('#skills1').click(function(){
 
-            $('.skills').delay(2000).fadeIn(3000,function(){
+            $('.skills').delay(2000).fadeIn(1000,function(){
                 // === ==> SKILLS PROGRESS BAR
 
                 $(".prog").each(function() {
@@ -394,7 +394,7 @@ $(document).ready(function () {
 
             $('.work').fadeOut();
 
-            $('#navside1').delay(2000).fadeIn(3000);
+            $('#navside1').delay(2000).fadeIn(1000);
 
         })
 
@@ -427,13 +427,13 @@ $(document).ready(function () {
         
         $('#contact1').click(function(){
 
-            $('.contact').delay(2000).fadeIn(3000);
+            $('.contact').delay(2000).fadeIn(1000);
 
             $('#navov').fadeOut(1000);
 
             $('.skills').fadeOut(1000);
 
-            $('#navside1').delay(2000).fadeIn(3000);
+            $('#navside1').delay(2000).fadeIn(1000);
 
             $('.work').fadeOut();
 
@@ -441,7 +441,7 @@ $(document).ready(function () {
 
         $('#contact2').click(function(){
 
-            $('.contact').delay(1000).fadeIn(2000);
+            $('.contact').delay(1000).fadeIn(1000);
 
             $('.section2').fadeOut();
 
@@ -453,13 +453,13 @@ $(document).ready(function () {
 
         $('#work1').click(function(){
 
-            $('.work').delay(2000).fadeIn(3000);
+            $('.work').delay(2000).fadeIn(1000);
 
             $('#navov').fadeOut(1000);
 
             $('.skills').fadeOut(1000);
 
-            $('#navside1').delay(2000).fadeIn(3000);
+            $('#navside1').delay(2000).fadeIn(1000);
 
             $('.section2').fadeOut();
 
@@ -469,7 +469,7 @@ $(document).ready(function () {
 
         $('#work2').click(function(){
 
-            $('.work').delay(1000).fadeIn(2000);
+            $('.work').delay(1000).fadeIn(1000);
 
             $('.section2').fadeOut();
 
