@@ -338,7 +338,7 @@ $(document).ready(function () {
         $('.work').fadeOut();
 
 
-        $('#navov').delay(6000).fadeIn(1000);
+        $('#navov').delay(1000).fadeIn(1000);
 
         $('#about1').click(function(){
 
@@ -348,7 +348,7 @@ $(document).ready(function () {
             
             $('.contact').fadeOut(1000);
 
-            $('#navside1').delay(2000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(1000);
 
             $('.work').fadeOut();
 
@@ -370,7 +370,7 @@ $(document).ready(function () {
         
         $('#skills1').click(function(){
 
-            $('.skills').delay(2000).fadeIn(1000,function(){
+            $('.skills').delay(1000).fadeIn(1000,function(){
                 // === ==> SKILLS PROGRESS BAR
 
                 $(".prog").each(function() {
@@ -394,7 +394,7 @@ $(document).ready(function () {
 
             $('.work').fadeOut();
 
-            $('#navside1').delay(2000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(1000);
 
         })
 
@@ -427,13 +427,13 @@ $(document).ready(function () {
         
         $('#contact1').click(function(){
 
-            $('.contact').delay(2000).fadeIn(1000);
+            $('.contact').delay(1000).fadeIn(1000);
 
             $('#navov').fadeOut(1000);
 
             $('.skills').fadeOut(1000);
 
-            $('#navside1').delay(2000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(1000);
 
             $('.work').fadeOut();
 
@@ -453,13 +453,13 @@ $(document).ready(function () {
 
         $('#work1').click(function(){
 
-            $('.work').delay(2000).fadeIn(1000);
+            $('.work').delay(1000).fadeIn(1000);
 
             $('#navov').fadeOut(1000);
 
             $('.skills').fadeOut(1000);
 
-            $('#navside1').delay(2000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(1000);
 
             $('.section2').fadeOut();
 
