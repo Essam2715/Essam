@@ -315,7 +315,7 @@ $(document).ready(function () {
 
 
         
-        $('#essam-logo').delay(2500).animate({
+        $('#essam-logo').delay(4500).animate({
             
             'top':95,
             'fontSize':'2.2em',
@@ -323,7 +323,7 @@ $(document).ready(function () {
             // 'left':100
         },2000);
 
-        $('.deco1').delay(2500).fadeOut(500);
+        $('.deco1').delay(4500).fadeOut(1000);
 
         $('#navov').fadeOut();
 
