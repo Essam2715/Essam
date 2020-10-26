@@ -338,17 +338,17 @@ $(document).ready(function () {
         $('.work').fadeOut();
 
 
-        $('#navov').delay(1000).fadeIn(1000);
+        $('#navov').delay(1000).fadeIn(500);
 
         $('#about1').click(function(){
 
-            $('.section2').delay(1500).fadeIn(1000);
+            $('.section2').delay(1500).fadeIn(500);
 
             $('#navov').fadeOut(1000);
             
             $('.contact').fadeOut(1000);
 
-            $('#navside1').delay(1000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(500);
 
             $('.work').fadeOut();
 
@@ -357,7 +357,7 @@ $(document).ready(function () {
 
         $('#about2').click(function(){
 
-            $('.section2').delay(1000).fadeIn(1000);
+            $('.section2').delay(1000).fadeIn(500);
 
             $('.skills').fadeOut();
 
@@ -394,7 +394,7 @@ $(document).ready(function () {
 
             $('.work').fadeOut();
 
-            $('#navside1').delay(1000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(500);
 
         })
 
@@ -427,13 +427,13 @@ $(document).ready(function () {
         
         $('#contact1').click(function(){
 
-            $('.contact').delay(1000).fadeIn(1000);
+            $('.contact').delay(1000).fadeIn(500);
 
             $('#navov').fadeOut(1000);
 
             $('.skills').fadeOut(1000);
 
-            $('#navside1').delay(1000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(500);
 
             $('.work').fadeOut();
 
@@ -441,7 +441,7 @@ $(document).ready(function () {
 
         $('#contact2').click(function(){
 
-            $('.contact').delay(1000).fadeIn(1000);
+            $('.contact').delay(1000).fadeIn(500);
 
             $('.section2').fadeOut();
 
@@ -453,13 +453,13 @@ $(document).ready(function () {
 
         $('#work1').click(function(){
 
-            $('.work').delay(1000).fadeIn(1000);
+            $('.work').delay(1000).fadeIn(500);
 
             $('#navov').fadeOut(1000);
 
             $('.skills').fadeOut(1000);
 
-            $('#navside1').delay(1000).fadeIn(1000);
+            $('#navside1').delay(1000).fadeIn(500);
 
             $('.section2').fadeOut();
 
@@ -469,7 +469,7 @@ $(document).ready(function () {
 
         $('#work2').click(function(){
 
-            $('.work').delay(1000).fadeIn(1000);
+            $('.work').delay(1000).fadeIn(500);
 
             $('.section2').fadeOut();
 
