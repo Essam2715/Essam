@@ -970,6 +970,10 @@ canvas{
   padding: 170px 10px 0px 10px;
   position: inherit;
   line-height: 1.7
+  transform: translate(0%, 50%);
+}
+.section2 .row{
+   align-items: baseline;
 }
 .section2 img{
   opacity: .8;
@@ -1428,7 +1432,7 @@ a.lb-close{
   background-color: #fff;
   position: fixed;
   right: 0;
-  width: 200px;
+  width: 214px;
   border: none;
   color: #111;
   border-radius: 0;
